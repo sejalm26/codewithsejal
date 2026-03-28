@@ -1,3 +1,5 @@
+//Program to detect the number of vowels in a string
+
 let str = "sejal"
 
 // first attempt - own logic
@@ -17,7 +19,7 @@ console.log(countVowel());
 //Scalable and optimized
 
 function countVowel2(){
-    let strLower = str.toLowerCase();
+    let strLower = str.toLowerCase(); //To not change the global variable, we copy the global variable in another variable
     let count = 0;
     for(let i = 0; i < strLower.length; i++){
         if("aeiou".includes(strLower[i])){
