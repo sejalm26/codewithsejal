@@ -1,4 +1,4 @@
-# Day 1 - 27th March 2026:
+# Day 1 - 27th March 2026, Friday:
 - Hi from today I am starting to code in Javascript (seriously). 
 - I have been running away from logical Javascript when I dreamed of becoming an Engineer until I realised how weak I was in thinking to code logic.
 - I realised I needed practice, patience and persistence to become an Engineer and not just a person with a degree.
@@ -14,3 +14,18 @@
 5. Now I remembered one more question which recruiters may ask. Take a string and print the next letter. I tried writing it by disecting the logic using console.log refering the logical nudge which chatgpt gave me. I did that step-by-step, very slowly. And finally reached a part where I got the answer I wanted!
 
 - That's it for today. Signing off!
+
+
+# Day 2 - 28th March 2026, Saturday:
+
+- Today is my second day of practicing coding in Javascript.
+- I still feel like coding today. 
+
+1. day-02-ascii-2.js
+
+- Today I wrote the first program again based on ascii logic. I don't know why I am kind of interested in ascii. So I am thinking how a simple program based on ascii can be twisted and turned so it gives different answers. In short, I am thinking of variations and challenging myself with ascii logic. The first code I wrote today was a "Program to eliminate vowels from a string and display that string without vowels". Interesting right? It might not be new for you maybe but for me it was something I never tried. I brainstormed this question and wrote code by myself.
+
+2. day-02-ascii-3.js
+
+- Next program "To shift vowels and consonents by one letter in a string". Here I made two different functions to solve it: one for vowels and other for consonents. Because why I should make two different files for similar logic? Also its good to have these in one file so I can compare what I did different. Ofcourse, there is some difference in it. While it was simple for vowels, consonents needed some "special treatment" in terms of logic handling. When I wrote the code for consonents, I observed that the special characters were appearing in the output too. I just wrote "Shift one if not a vowel" but what about when consonents changes to special characters like "@ ! $.. etc" ?? 
+- So I asked chatgpt what can I do to make this right. Thats where "nested if else" came into picture. I was like "Why this didn't clicked me??". Now here the simple logic gets its nesting by checking first "Is the letter an alphabet?" if yes then "Check if its vowel or consonent" if vowel then "Add it into result as it is (don't change)" else if its a consonent then "Change it by adding one to its ascii and convert to String" else if its not a letter then "Add it also to result (don't change)". Thats it.
