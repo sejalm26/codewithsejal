@@ -43,3 +43,46 @@
 
 - Next program "To shift vowels and consonents by one letter in a string". Here I made two different functions to solve it: one for vowels and other for consonents. Because why I should make two different files for similar logic? Also its good to have these in one file so I can compare what I did different. Ofcourse, there is some difference in it. While it was simple for vowels, consonents needed some "special treatment" in terms of logic handling. When I wrote the code for consonents, I observed that the special characters were appearing in the output too. I just wrote "Shift one if not a vowel" but what about when consonents changes to special characters like "@ ! $.. etc" ??
 - So I asked chatgpt what can I do to make this right. Thats where "nested if else" came into picture. I was like "Why this didn't clicked me??". Now here the simple logic gets its nesting by checking first "Is the letter an alphabet?" if yes then "Check if its vowel or consonent" if vowel then "Add it into result as it is (don't change)" else if its a consonent then "Change it by adding one to its ascii and convert to String" else if its not a letter then "Add it also to result (don't change)". Thats it.
+
+
+# Day 3 - 29th March 2026, Sunday:
+
+- Hello. Today I am not feeling well. But I'll try to code anyway. Let's go!
+
+1. day-03-count-words.js
+- I don't think I need to explain this further. But here I learned something new too.
+- I made a copy of the original string when it didn't require. Because you only copy the data which is changing the real value of the global variable.
+- So here is small mental note I asked chatgpt to give me because I don't feel like typing it out today. That's okay. All days are not same.
+
+```Mental Note - Working with strings in JavaScript``
+- Strings are immutable
+  - Methods like split(), toLowerCase() do not change original string
+
+- When NO extra variable needed?
+    - When you are just using the string
+    str.split(" ")
+    - Original str stays same
+
+- When to use new variable
+    - When you need a modified version
+    - let strLower = str.toLowerCase();
+
+    - Keep original safe
+    - Work on transformed version
+
+- Avoid unnecessary copy
+let strCopy = str; // not useful
+
+- No transformation → no need
+
+- Rule
+Use directly → no copy
+Transform → store in new variable
+
+2. day-03-non-repeating.js
+- I asked chatgpt to give me another challenge but I didn't mentioned that I want somehing easy for today. So it gave me this. nested for-loop for a tough day. Nice.
+- I anyway decided to try. Brain fog is real. I knew what should be done but I just couldn't think in code logic.
+- I asked it to give me hint. I did solve but it wasn't making sense to me. So I decided to not stress too much. I'll look into this tomorrow with a fresh mind and try to solve similar problems. Or when I feel like.
+- It's not about being right it's about trying. You can't look at a new method and say "Why this didn't click me earlier? Am I dumb?" No one is dumb. All we need is practice. And a fresh mind.
+
+- Signing off!
