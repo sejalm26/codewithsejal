@@ -86,3 +86,18 @@ Transform → store in new variable
 - It's not about being right it's about trying. You can't look at a new method and say "Why this didn't click me earlier? Am I dumb?" No one is dumb. All we need is practice. And a fresh mind.
 
 - Signing off!
+
+# Day 4 - 8th April 2026, Wednesday:
+
+- Its direct 8th april now. I didnt practice for so long but I made a finance ui dashbaord for a company using React.js. I learnt so many things making that even logic.
+- I'm back today to practice logic again.
+
+1. day-04-count-consonants.js
+- I don't think I need to explain this.
+
+2. day-04-only-number.js
+- If there is only number then output is true else its false. Right? WRONG.
+- Yes its true for only numbers but with a twist.
+- If there is letter or special character in the code its false first or else its true.
+- Here we first look if its not true to start with, then if it fails, its true.
+- Like how life tests us through hardships first so we understand whats true.
