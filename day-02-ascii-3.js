@@ -1,6 +1,6 @@
 // Program to pick vowels and shift one character ahead
 
-let str = "Sejal and Jungkook@1234";
+let str = "Sejal and Jk@1234";
 
 function shiftVowels() {
     let strLower = str.toLowerCase();
