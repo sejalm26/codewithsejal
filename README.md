@@ -101,3 +101,12 @@ Transform → store in new variable
 - If there is letter or special character in the code its false first or else its true.
 - Here we first look if its not true to start with, then if it fails, its true.
 - Like how life tests us through hardships first so we understand whats true.
+
+# Day 5 - 10th April 2026, Friday:
+
+- Hello, I'm here again today to practice!
+- I know, the questions I'm solving are very easy but i'll raise the bar like anything as I train myself.
+- Just remember, "If you can't fly, run, If you can't run, walk, If you can't walk, crawl, Even if you have to crawl, gear up, Point, aim, shoot!" - Not Today by BTS 💜.
+
+1. day-05-only-letters.js
+2. day-05-largest-digit.js
