@@ -2,7 +2,7 @@
 
 So I started this because I kept running away from logical JavaScript. I had this moment where I failed to recall how to reverse a string in an interview and I was like okay enough. I need to actually sit down and think in code, not just write it.
 
-This repo is my practice log. Every problem here — I tried it myself first. Sometimes I got it right, sometimes I got it completely wrong, and both are documented. I used ChatGPT only after attempting, mostly for hints or to show me a cleaner version. Never to just get the answer.
+This repo is my practice log. Every problem here, I tried it myself first. Sometimes I got it right, sometimes I got it completely wrong, and both are documented. I used ChatGPT only after attempting, mostly for hints or to show me a cleaner version. Never to just get the answer.
 
 The goal isn't to collect solutions. It's to actually understand why something works.
 
@@ -12,7 +12,7 @@ The goal isn't to collect solutions. It's to actually understand why something w
 
 `day-XX-problem-name.js`
 
-If I solved variations of the same concept, they're in the same file — not separate ones. That way I can actually compare what I did differently.
+If I solved variations of the same concept, they're in the same file, not separate ones. That way I can actually compare what I did differently.
 
 ---
 
@@ -60,7 +60,7 @@ That's where nested `if-else` stopped being a textbook thing and became somethin
 ### Day 3 — Coding on a bad day
 
 **`day-03-count-words.js`**  
-Count words in a string. Simple enough, but I made a mistake — I copied the original string into a new variable when I didn't need to. The learning here was about string immutability: `split()`, `toLowerCase()` etc. don't touch the original string. You only need a new variable when you're working with a transformed version of the data. Otherwise just use the method output directly.
+Count words in a string. Simple enough, but I made a mistake, I copied the original string into a new variable when I didn't need to. The learning here was about string immutability: `split()`, `toLowerCase()` etc. don't touch the original string. You only need a new variable when you're working with a transformed version of the data. Otherwise just use the method output directly.
 
 **`day-03-non-repeating.js`**  
 Find the first non-repeating character. I tried this on a sick day and genuinely could not get my brain to write the logic out even though I knew what needed to happen. I kept the partial attempt in the file. Not every session goes well and that's fine.
@@ -73,7 +73,7 @@ Find the first non-repeating character. I tried this on a sick day and genuinely
 Count consonants. Straightforward after day 2.
 
 **`day-04-only-number.js`**  
-Return `true` if the string has only numbers, `false` if not. The interesting part was the logic direction — instead of checking "is it a number," I checked "does it fail to be a number first." If it fails, return false. If it doesn't fail, return true. Negative-first thinking.
+Return `true` if the string has only numbers, `false` if not. The interesting part was the logic direction, instead of checking "is it a number," I checked "does it fail to be a number first." If it fails, return false. If it doesn't fail, return true. Negative-first thinking.
 
 ---
 
@@ -110,4 +110,4 @@ Find the largest digit in a mixed string. Needed to filter out non-numeric chara
 
 ---
 
-> Started this to get better at thinking in code — not just writing it.
+> Started this to get better at thinking in code, not just writing it.
