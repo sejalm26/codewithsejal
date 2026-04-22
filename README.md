@@ -27,7 +27,7 @@ Reverse a string. This was literally the question I blanked on in the interview 
 Same idea but reversed only the words, not the characters. Different split and join logic.
 
 **`day-01-palindrome.js`**  
-Check if a string reads the same forwards and backwards. My first attempt used a `for` loop and it was wrong. The fix was switching to `while` — because when you don't know how many steps it'll take (you stop when the first and last pointer values don't match), `while` makes more sense than `for`. That clicked for me here.
+Check if a string reads the same forwards and backwards. My first attempt used a `for` loop and it was wrong. The fix was switching to `while` - because when you don't know how many steps it'll take (you stop when the first and last pointer values don't match), `while` makes more sense than `for`. That clicked for me here.
 
 **`day-01-count-vowels.js`**  
 Count the vowels in a string. Solved it myself, then ChatGPT showed me a regex version. Both are in the same file.
@@ -42,16 +42,16 @@ Take a string and print the next letter for each character using ASCII codes. I 
 At this point I got a little obsessed with ASCII logic and started making up my own variations to see how far I could take it.
 
 **`day-02-ascii-2.js`**  
-Remove all vowels from a string using ASCII. Self-initiated — wasn't from any list.
+Remove all vowels from a string using ASCII. Self-initiated, wasn't from any list.
 
 **`day-02-ascii-3.js`**  
-Shift vowels and consonants forward by one letter. Two functions in the same file — one for vowels, one for consonants — because the logic is similar enough to compare but different enough to need separate handling.
+Shift vowels and consonants forward by one letter. Two functions in the same file — one for vowels, one for consonants, because the logic is similar enough to compare but different enough to need separate handling.
 
 The tricky part: when you shift a consonant near the end of the alphabet, it crosses into special characters like `@` or `!`. I didn't think about that at first. The fix was nesting the condition:
 - Is it even an alphabet character?
-- If yes — vowel or consonant?
-- If consonant — shift by one ASCII value
-- If not a letter at all — leave it as is
+- If yes, vowel or consonant?
+- If consonant, shift by one ASCII value
+- If not a letter at all, leave it as is
 
 That's where nested `if-else` stopped being a textbook thing and became something I actually needed.
 
@@ -96,7 +96,7 @@ Find the largest digit in a mixed string. Needed to filter out non-numeric chara
 | ASCII character codes | `day-01-ascii-1.js`, `day-02-*` |
 | Nested conditionals and edge cases | `day-02-ascii-3.js` |
 | String immutability | `day-03-count-words.js` |
-| Intermediate variables — when and why | `day-03-count-words.js` |
+| Intermediate variables - when and why | `day-03-count-words.js` |
 | Negative-first conditional logic | `day-04-only-number.js` |
 | Type conversion | `day-05-largest-digit.js` |
 | Regex as an optimization | `day-01-count-vowels.js` |
