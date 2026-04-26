@@ -6,7 +6,31 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+        textarea{
+            width: 600px;
+            height: 400px;
+            margin: 20px
+        }
+        input{
+            width: 90px;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+
+    <form id="form">
+        <label>Enter the text</label>
+        <textarea id="text" type="text"></textarea>
+        <input type="submit">
+        <p id="result"></p>
+    </form>
     
-    <script src="day-05-largest-digit.js"></script>
+    <script src="day-06-word-counter.js"></script>
 </body>
 </html>
