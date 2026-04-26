@@ -105,7 +105,6 @@ Find the largest digit in a mixed string. Needed to filter out non-numeric chara
 
 ## Stack
 - JavaScript (ES6+)
-- Node.js
 - Console-based testing
 
 ---
